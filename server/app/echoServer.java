@@ -3,7 +3,8 @@ import java.io.*;
 
 class echoServer{
     //public static void main(String[] args) {
-    void run(){
+    public static void main(String[] args) {
+        
         System.out.println("Echo server");
 
         try (ServerSocket echoServer = new ServerSocket(9999)){
